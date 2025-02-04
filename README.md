@@ -279,3 +279,4 @@ Combine `motor_joystick_control.cpp` and `motor_position_control.cpp` so that th
 
 
 [^1]: Version 1 - 2024: Joseph Ntaimo, Josh Sohn, Jinger Chong
+Version 2 - 2025: Roberto Bolli, Kaleb Blake
