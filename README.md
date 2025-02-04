@@ -95,7 +95,7 @@ Before connecting the microcontroller to the rest of the system, we want to make
 This GitHub repository contains all the code you need for this lab. In order to make a local copy of this repository, you need to *clone* it. For all Git operations in this class, we will use VSCode's built-in Source Control. Both of you must do this section.
 1. Open the VSCode application.
 2. Go to the Source Control tab by clicking on the Source Control icon in the Activity Bar on the left side of the window (3rd from the top).
-3. Click "Clone Repository".
+3. Click "Clone Repository". If you don't see a button to do so, hover over the "Source Control" text with a drop-down arrow to the left of it, click on the three dots that appear to the right, and click "Clone".
 4. Enter "https://github.com/mit212/lab1_2025" on the bar that appears at the top of the window.
 5. Select "Clone from URL" from the dropdown.
 6. Navigate to the directory where you want your lab code files to be saved. Git will create a new folder called `lab1_2025` within that directory to contain all files in this repository. Click "Select as Repository Destination".
