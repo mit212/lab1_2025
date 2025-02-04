@@ -131,7 +131,13 @@ Now that you have the code on your machine, you can *upload* it on the microcont
     </details>
 4. Click the right arrow at the bottom of the screen to upload the code on the microcontroller. The upload process also includes compiling so if you only make small changes in the future, you don't need to build before uploading.
   ![](./.images/upload.png)  
-5. Run the code by clicking `RST`. You should see the onboard LED change colors! 
+5. Run the code by clicking `RST`. You should see the onboard LED change colors!
+
+<details>
+    <summary><i> Code doesn't run? </i></summary>
+    Try closing the terminal by pressing Ctrl+C, then unplugging and replugging the USB cable to your PC.
+</details>
+
 6. For the lab partner who did not get to use their machine to upload code on the microcontroller yet, open `src/robot/blink_test.cpp`.
 7. Modify the code in line `20` to increase the delay to `60`.
 8. Save the file and repeat steps 1 to 5. You should notice that the speed at which the onboard LED changes colors is much slower!
