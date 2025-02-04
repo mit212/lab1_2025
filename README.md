@@ -1,7 +1,7 @@
 # Lab 1: DC Motor Basics
 
 2.12/2.120 Intro to Robotics  
-Spring 2024[^1]
+Spring 2025[^1]
 
 ## Table of Contents
 - [Lab 1: DC Motor Basics](#lab-1-dc-motor-basics)
