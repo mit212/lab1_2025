@@ -96,13 +96,13 @@ This GitHub repository contains all the code you need for this lab. In order to 
 1. Open the VSCode application.
 2. Go to the Source Control tab by clicking on the Source Control icon in the Activity Bar on the left side of the window (3rd from the top).
 3. Click "Clone Repository".
-4. Enter "https://github.com/mit212/lab1_2024" on the bar that appears at the top of the window.
+4. Enter "https://github.com/mit212/lab1_2025" on the bar that appears at the top of the window.
 5. Select "Clone from URL" from the dropdown.
-6. Navigate to the directory where you want your lab code files to be saved. Git will create a new folder called `lab1_2024` within that directory to contain all files in this repository. Click "Select as Repository Destination".
+6. Navigate to the directory where you want your lab code files to be saved. Git will create a new folder called `lab1_2025` within that directory to contain all files in this repository. Click "Select as Repository Destination".
 7. In the pop-up window asking whether you would like to open the cloned repository, click "Open".
 8. In the succeeding pop-up window asking whether you trust the authors of the files in the folder, click "Yes, I trust the authors".
 
-Note: In the future, if you need to view or edit a repository you have already cloned, just click "Open Folder" when you first launch the VSCode application and select the cloned folder, e.g. `lab1_2024` folder.
+Note: In the future, if you need to view or edit a repository you have already cloned, just click "Open Folder" when you first launch the VSCode application and select the cloned folder, e.g. `lab1_2025` folder.
 
 ### 3.2 Uploading Code on the Microcontroller
 Now that you have the code on your machine, you can *upload* it on the microcontroller. This is a process we will repeat not only in this lab but throughout the semester, so try to remember the steps! We will first upload a simple test that changes the color of the onboard LED.
