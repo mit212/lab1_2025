@@ -6,7 +6,7 @@
 #define PWM1 41
 
 //encoder pins
-#define ENCODER_A_PIN 21
-#define ENCODER_B_PIN 38
+#define ENCODER_A_PIN 38
+#define ENCODER_B_PIN 21
 
 #endif
