@@ -275,6 +275,7 @@ We will now write some code to collect and print input from the joystick.
 2. Name the file `motor_joystick_control.cpp`. It is important that you include `.cpp` in the filename.
 3. Copy this code:
 
+'''
 #include <Arduino.h>
 
 void setup(){	
@@ -287,6 +288,7 @@ void loop(){
 	Serial.println("LR: " + String(LR_pot) + ", UD: " + String(UD_pot));
 	delay(100);
 }
+'''
 
 4. Upload and run `motor_joystick_control.cpp`. You should see the positions of the two potentiometers of the joystick print on the Serial Monitor!
 
