@@ -294,7 +294,7 @@ void loop(){
 
 #### X.1.4 Put It All Together!
 
-Combine `motor_joystick_control.cpp` and `motor_position_control.cpp` so that the `setpoint` in `motor_position_control.cpp` is dictated by either `x` or `y` in `motor_joystick_control.cpp`.
+Combine `motor_joystick_control.cpp` and `motor_position_control.cpp` so that the `setpoint` in `motor_position_control.cpp` is dictated by either `x` or `y` in `motor_joystick_control.cpp`. Remember to include a scaling factor to convert between the 10 bit analogRead output (0-4095) and the desired setpoint in radians.
 
 | :white_check_mark: OPTIONAL CHECKOFF 3 :white_check_mark:   |
 |:---------------------------------------------------|
