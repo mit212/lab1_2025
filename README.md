@@ -118,7 +118,7 @@ Now that you have the code on your machine, you can *upload* it on the microcont
 
     </details>
 2. Connect the microcontroller to your machine using a USB-C cable.
-3. Put the microcontroller into *download* mode by holding down the onboard `BOOT` button, clicking the adjacent `RST` button, and then releasing `BOOT`. **Depending on your machine, you may have to do you this every time you want to upload code on your microcontroller.** 
+3. Put the microcontroller into *download* mode by holding down the onboard `BOOT` button, clicking the adjacent `RST` button, and then releasing `BOOT`. **Depending on your machine, you may have to do you this every time you want to upload code on your microcontroller.** Hold the buttons for 2-3 seconds!
 
     <details>
     <summary><i> Upload failed? COM port doesn't exist? </i></summary>
