@@ -123,7 +123,7 @@ Now that you have the code on your machine, you can *upload* it on the microcont
 4. Click the right arrow at the bottom of the screen to upload the code on the microcontroller. The upload process also includes compiling so if you only make small changes in the future, you don't need to build before uploading.
   ![](./.images/upload.png)
 
-<details>
+    <details>
     <summary><i> Upload failed? COM port doesn't exist? </i></summary>
 
     Delete the `.pio` folder and put the microcontroller into *download* mode again. The onboard LED on the microcontroller **should be off** when it is in *download* mode. Make sure you clicked `RST` **while you are still holding down** `BOOT`. You should only let go of `BOOT` after you have let go of `RST`. 
@@ -131,14 +131,14 @@ Now that you have the code on your machine, you can *upload* it on the microcont
     You can also try manually selecting the upload port. Click the plug icon next to "Auto" at the bottom of the screen and try the options that appear at the top of the screen.
 
     ![](./.images/port.png)
-</details>
+    </details>
 
 5. Run the code by clicking `RST`. You should see the onboard LED change colors!
 
-<details>
+    <details>
     <summary><i> Code doesn't run? </i></summary>
     Try closing the terminal by pressing Ctrl+C, then unplugging and replugging the USB cable to your PC.
-</details>
+    </details>
 
 6. For the lab partner who did not get to use their machine to upload code on the microcontroller yet, open `src/robot/blink_test.cpp`.
 7. Modify the code in line `20` to increase the delay to `60`.
