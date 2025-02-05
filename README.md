@@ -273,7 +273,21 @@ Please ask a TA or LA for a joystick. Refer to the schematic below to wire it to
 We will now write some code to collect and print input from the joystick. 
 1. Right-click on the `robot` subfolder and click "New File...".
 2. Name the file `motor_joystick_control.cpp`. It is important that you include `.cpp` in the filename.
-3. Copy down the code written on the whiteboard.
+3. Copy this code:
+
+#include <Arduino.h>
+
+void setup(){	
+	Serial.begin();
+}
+
+void loop(){
+	int UD_pot = analogRead(2);
+    	int LR_pot = analogRead(1);
+	Serial.println("LR: " + String(LR_pot) + ", UD: " + String(UD_pot));
+	delay(100);
+}
+
 4. Upload and run `motor_joystick_control.cpp`. You should see the positions of the two potentiometers of the joystick print on the Serial Monitor!
 
 #### X.1.4 Put It All Together!
