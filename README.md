@@ -108,7 +108,7 @@ Note: In the future, if you need to view or edit a repository you have already c
 ### 3.2 Uploading Code on the Microcontroller
 Now that you have the code on your machine, you can *upload* it on the microcontroller. This is a process we will repeat not only in this lab but throughout the semester, so try to remember the steps! We will first upload a simple test that changes the color of the onboard LED.
 
-1. To verify that the code compiles, first *build* the code by clicking the check mark at the bottom of the screen. A terminal window will open to report progress as your code builds. Once done, it should say `SUCCESS`. 
+1. Open `src/robot/blink_test.cpp`. To verify that the code compiles, first *build* the code by clicking the check mark at the bottom of the screen. A terminal window will open to report progress as your code builds. Once done, it should say `SUCCESS`. 
 ![](./.images/build.png)  
 
     <details>
@@ -120,7 +120,10 @@ Now that you have the code on your machine, you can *upload* it on the microcont
 2. Connect the microcontroller to your machine using a USB-C cable.
 3. Put the microcontroller into *download* mode by holding down the onboard `BOOT` button, clicking the adjacent `RST` button, and then releasing `BOOT`. **Depending on your machine, you may have to do you this every time you want to upload code on your microcontroller.** Hold the buttons for 2-3 seconds!
 
-    <details>
+4. Click the right arrow at the bottom of the screen to upload the code on the microcontroller. The upload process also includes compiling so if you only make small changes in the future, you don't need to build before uploading.
+  ![](./.images/upload.png)
+
+<details>
     <summary><i> Upload failed? COM port doesn't exist? </i></summary>
 
     Delete the `.pio` folder and put the microcontroller into *download* mode again. The onboard LED on the microcontroller **should be off** when it is in *download* mode. Make sure you clicked `RST` **while you are still holding down** `BOOT`. You should only let go of `BOOT` after you have let go of `RST`. 
@@ -128,9 +131,8 @@ Now that you have the code on your machine, you can *upload* it on the microcont
     You can also try manually selecting the upload port. Click the plug icon next to "Auto" at the bottom of the screen and try the options that appear at the top of the screen.
 
     ![](./.images/port.png)
-    </details>
-4. Click the right arrow at the bottom of the screen to upload the code on the microcontroller. The upload process also includes compiling so if you only make small changes in the future, you don't need to build before uploading.
-  ![](./.images/upload.png)  
+</details>
+
 5. Run the code by clicking `RST`. You should see the onboard LED change colors!
 
 <details>
