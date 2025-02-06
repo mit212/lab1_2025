@@ -22,7 +22,6 @@ Spring 2025[^1]
   - [5 Validating the Encoder](#5-validating-the-encoder)
     - [5.1 Wiring up the Encoder and Microcontroller](#51-wiring-up-the-encoder-and-microcontroller)
     - [5.2 Testing the Encoder](#52-testing-the-encoder)
-  - [6 Feedback Form](#6-feedback-form)
   - [X Optional](#x-optional)
     - [X.1 Controlling the Motor via Joystick](#x1-controlling-the-motor-via-joystick)
       - [X.1.1 Motor Position Control](#x11-motor-position-control)
