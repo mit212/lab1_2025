@@ -51,7 +51,7 @@ PlatformIO is an open-source ecosystem for IoT development with support for vari
 2. Go to the Extensions tab by clicking on the Extensions icon in the Activity Bar on the left side of the window (5th from the top).
 3. Search for "PlatformIO IDE" by PlatformIO and click "Install".
 
-### 1.3 C/C++ Extension
+### 1.3 C/C++
 
 Since the code we need for the microcontroller is based on C++, we also need a C++ extension in VSCode for context-aware code completion. This helps speed up the coding process and reduce bugs.
 
