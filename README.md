@@ -102,7 +102,7 @@ This GitHub repository contains all the code you need for this lab. In order to 
 8. In the pop-up window asking whether you would like to open the cloned repository, click "Open".
 9. In the succeeding pop-up window asking whether you trust the authors of the files in the folder, click "Yes, I trust the authors".
 
-Note: In the future, if you need to view or edit a repository you have already cloned, just click "Open Folder" when you first launch the VSCode application and select the cloned folder, e.g. `lab1_2025` folder.
+Note: In the future, if you need to view or edit a repository you have already cloned, just click "Open Folder" when you first launch the VSCode application and select the cloned folder, e.g. `lab1_2025` folder. Make sure to open the entire folder/project you are working on, not just the file you want to upload.
 
 ### 3.2 Uploading Code on the Microcontroller
 Now that you have the code on your machine, you can *upload* it on the microcontroller. This is a process we will repeat not only in this lab but throughout the semester, so try to remember the steps! We will first upload a simple test that changes the color of the onboard LED.
@@ -137,6 +137,13 @@ Now that you have the code on your machine, you can *upload* it on the microcont
     <details>
     <summary><i> Code doesn't run? </i></summary>
     Try closing the terminal by pressing Ctrl+C, then unplugging and replugging the USB cable to your PC. The ESP32 boards are a bit finnicky, so feel free to try multiple rounds of uploading/resetting/unplugging the USB/etc.
+    </details>
+
+     <details>
+    <summary><i> Code STILL doesn't run? </i></summary>
+    1. Set LED brightness to 255 (instead of 255/3). <br>
+	     2. Add the line "Serial.begin();" to your code inside the "setup" function. <br>
+	     3. Add the line "Serial.println(String(color));" inside the "loop" function.
     </details>
 
 6. For the lab partner who did not get to use their machine to upload code on the microcontroller yet, open `src/robot/blink_test.cpp`.
@@ -222,7 +229,7 @@ Using what you learned about reading schematics in the [previous section](#32-wi
 <img src="./.images/schematic2.png" width="800"/>
 </p>
 
-Hint: You only need to connect the 4 encoder wires to the microcontroller through the breadboard. Remember to refer to `include/pinout.h` to confirm pin numbers.
+Hint: You only need to connect the 4 encoder wires to the microcontroller through the breadboard. NOTE: the encoder A and encoder B pins are INTENTIONALLY reversed in `include/pinout.h`. Please wire the encoders according to the diagram.
 
 ### 5.2 Testing the Encoder
 To see the encoder in action, we will upload the provided encoder test code on the microcontroller.
