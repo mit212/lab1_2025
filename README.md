@@ -136,7 +136,7 @@ Now that you have the code on your machine, you can *upload* it on the microcont
 
     <details>
     <summary><i> Code doesn't run? </i></summary>
-    Try closing the terminal by pressing Ctrl+C, then unplugging and replugging the USB cable to your PC.
+    Try closing the terminal by pressing Ctrl+C, then unplugging and replugging the USB cable to your PC. The ESP32 boards are a bit finnicky, so feel free to try multiple rounds of uploading/resetting/unplugging the USB/etc.
     </details>
 
 6. For the lab partner who did not get to use their machine to upload code on the microcontroller yet, open `src/robot/blink_test.cpp`.
