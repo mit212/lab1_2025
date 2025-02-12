@@ -29,8 +29,10 @@ Spring 2025[^1]
       - [X.1.3 Printing Joystick Input](#x13-printing-joystick-input)
       - [X.1.4 Put It All Together!](#x14-put-it-all-together)
 
-## 1 Software Set Up
- 
+## 1 Pre-lab and Software Set Up
+
+Before starting the lab, take a picture of the components on the benchtop workspace. **You must return everything to the exact same state as the beginning of the lab, with all the components laid out.**
+
 Please install the following software. Although you are working in pairs today, both of your machines should have all of these software.
 
 ### 1.1 Visual Studio Code (VSCode)
