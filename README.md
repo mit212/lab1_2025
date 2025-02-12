@@ -301,4 +301,5 @@ Combine `motor_joystick_control.cpp` and `motor_position_control.cpp` so that th
 | Demonstrate your very cool joystick-controlled motor to a TA or LA! |
 
 
-[^1]: Version 1 - 2024: Joseph Ntaimo, Josh Sohn, Jinger Chong. Version 2 - 2025: Roberto Bolli, Kaleb Blake
+[^1]: Version 1 - 2024: Joseph Ntaimo, Josh Sohn, Jinger Chong  
+  Version 2 - 2025: Roberto Bolli, Kaleb Blake
