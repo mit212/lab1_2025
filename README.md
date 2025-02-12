@@ -31,7 +31,7 @@ Spring 2025[^1]
 
 ## 1 Pre-lab and Software Set Up
 
-Before starting the lab, take a picture of the components on the benchtop workspace. **You must return everything to the exact same state as the beginning of the lab, with all the components laid out.**
+Before starting the lab, take a picture of the components on your benchtop. **You must return everything to the exact same state as the beginning of the lab, with all the components laid out.**
 
 Please install the following software. Although you are working in pairs today, both of your machines should have all of these software.
 
